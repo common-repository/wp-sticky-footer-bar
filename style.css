@@ -1,0 +1,24 @@
+/* WP Sticky Footer Bar by Ahmad Raza | arwebzone.com */
+/*
+Plugin Name: Sticky Footer Bar	
+Plugin URI: http://www.arwebzone.com
+Description: This plugin can add a floating sticky bar at the bottom of your blog. The bar Will Contain a link to a random post. The Post will be selected from your desired category.
+(idea is from wpbeginner.com)
+Version: 1.2.3
+Author: Ahmad Raza
+Author URI: http://arwebzone.com
+License: GPL 2
+*/
+.fixedbar{background: #000; bottom: 0px; color:#fff; font-family: Arial, Helvetica, sans-serif; left:0; padding: 0px 0; position:fixed; font-size:16px; width:100%; z-index:99999; float:left; vertical-align:middle; margin: 0px 0 0; opacity: 0.95; font-weight: bold;}
+
+.floatingbox{text-align:center; max-width:920px; min-width:300px; width:100%; margin:0 auto}
+
+#tips, #tips li{margin:0; padding:0; list-style:none}
+
+#tips{max-width:920px;width:100%; min-width:300px; font-size:20px; line-height:120%;}
+
+#tips li{padding: 15px 0;}
+
+#tips li a{color: #fff;}
+
+#tips li a:hover{text-decoration: none;}
